@@ -7,6 +7,11 @@ def get_asyncapi_ui_html(
 <html>
     <head>
         <link rel="stylesheet" href="https://unpkg.com/@asyncapi/react-component@1.0.0-next.44/styles/default.min.css">
+        <style>
+body {{
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}}
+        </style>
     </head>
     <body>
         
